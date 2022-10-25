@@ -1,0 +1,40 @@
+.wrapper {
+  background-color: rgba(55, 63, 104, 1);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 5px;
+  padding: 15px;
+  width: 80%;
+}
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sorting > p {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.sorting img {
+  cursor: pointer;
+}
+
+.btn {
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  background-color: rgba(173, 31, 234, 1);
+  border-radius: 5px;
+  width: 115px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(199, 90, 246, 1);
+}

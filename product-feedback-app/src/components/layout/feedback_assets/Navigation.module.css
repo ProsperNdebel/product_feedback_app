@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #fff;
+  padding: 15px;
+  /* remove these styles later */
+}
+
+.btn {
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  background-color: rgba(70, 97, 230, 1);
+  border-radius: 5px;
+  width: 115px;
+  cursor: pointer;
+}
+
+.leftWing {
+  cursor: pointer;
+}
+
+.leftWing > span {
+  font-size: 13px;
+  line-height: auto;
+}
+
+div > span {
+  margin-left: 10px;
+  color: rgba(100, 113, 150, 1);
+}

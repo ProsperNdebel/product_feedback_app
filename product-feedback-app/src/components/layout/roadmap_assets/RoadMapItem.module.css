@@ -1,0 +1,81 @@
+.wrapper {
+  background-color: #fff;
+  /* remove this one later */
+  margin-top: 20px;
+  width: 260px;
+  text-align: left;
+  font-size: 13px;
+  padding: 15px;
+  border-radius: 5px;
+  border-top: 4px solid rgba(244, 159, 133, 1);
+  /* margin-left: 10%; */
+}
+
+.topWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.topWrapper p {
+  margin: 0;
+}
+
+/* figure out where the left margin comes from */
+.roundedBall {
+  border-radius: 50%;
+  background-color: rgba(244, 159, 133, 1);
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.heading {
+  margin-bottom: 6px;
+}
+
+.description {
+}
+.category {
+  background-color: rgba(242, 244, 255, 1);
+  color: rgba(70, 97, 230, 1);
+  width: 100px;
+
+  text-align: center;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  line-height: 20px;
+}
+
+.bottomLast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* p tags have a default margin Prosper */
+.bottomLast p {
+  margin: 0;
+  font-weight: bold;
+  color: #000;
+  background-color: rgba(242, 244, 255, 1);
+  height: 25px;
+  line-height: 20px;
+  width: 50px;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.bottomLast p img {
+  margin-right: 3px;
+}
+
+.innerBottomLast {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+}

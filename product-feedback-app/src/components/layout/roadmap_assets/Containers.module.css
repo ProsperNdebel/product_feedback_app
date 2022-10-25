@@ -1,0 +1,16 @@
+.wrapper {
+  min-height: 20vh;
+  padding: 10px;
+  text-align: left;
+}
+
+.description {
+  color: rgba(100, 113, 150, 1);
+  font-size: 13px;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}

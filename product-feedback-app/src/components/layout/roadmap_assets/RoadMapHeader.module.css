@@ -1,0 +1,33 @@
+.wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(55, 63, 104, 1);
+  padding: 10px;
+  color: #fff;
+  margin-left: 10%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.left p {
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+}
+
+.left img {
+  margin-right: 10px;
+}
+
+.btn {
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  background-color: rgba(173, 31, 234, 1);
+  border-radius: 5px;
+  width: 115px;
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: #fff;
+  width: 175px;
+  box-shadow: 0px 0px 20px;
+  /* height: 160px; */
+  font-size: 13px;
+  position: absolute;
+  top: 3.5%;
+  left: 40%;
+}
+
+.wrapper p {
+  border-bottom: 1px solid rgba(100, 113, 150, 1);
+  height: 35px;
+  line-height: 35px;
+  margin: 0;
+  text-align: left;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.wrapper p:hover {
+  /* opacity: 90%; */
+  color: rgba(173, 31, 234, 1);
+}
+
+.wrapper p:nth-child(5) {
+  border-bottom: none;
+}

@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  align-items: flex-start;
+  width: 80%;
+  font-size: 13px;
+  background-color: #fff;
+  /* remove these styles later */
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.col {
+  color: rgba(70, 97, 230, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.descriptive {
+  color: rgba(100, 113, 150, 1);
+}
+
+.atUserName {
+  color: rgba(100, 113, 150, 1);
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.nonInherit {
+  all: revert;
+}

@@ -1,0 +1,113 @@
+.wrapper {
+  background-color: #fff;
+  width: 70%;
+  height: 620px;
+
+  /* remove this later */
+  margin-top: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 15%;
+}
+
+.heading {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 600px;
+  left: 20px;
+}
+
+form div {
+  text-align: left;
+}
+
+.labels {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+div p {
+  font-size: 13px;
+  color: rgba(100, 113, 150, 1);
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  background-color: rgba(247, 248, 253, 1);
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.lastInput {
+  display: inline-block;
+  height: 40px;
+}
+
+.btnContainer {
+  position: absolute;
+  right: 11.4%;
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}
+
+.cancelBtn {
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  background-color: rgba(58, 67, 116, 1);
+  border-radius: 5px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.delBtn {
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  background-color: rgba(215, 55, 55, 1);
+  border-radius: 5px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.addBtn {
+  background-color: rgba(173, 31, 234, 1);
+  height: 30px;
+  align-self: center;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 110px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.categoryDiv {
+  position: relative;
+}
+
+.dropDownImage {
+  position: absolute;
+  right: 13%;
+  top: 75%;
+}

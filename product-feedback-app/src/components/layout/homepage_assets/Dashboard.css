@@ -1,0 +1,128 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upperpart {
+  height: 150px;
+  color: #fff;
+  border-radius: 10px;
+  background-image: url("../../../assets/suggestions/desktop/background-header.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.upperpart h3 {
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+.midpart {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 10px;
+  height: 180px;
+  padding: 15px;
+  column-gap: 10px;
+  height: 150px;
+
+  /* align-items: center; */
+}
+
+.active {
+  background-color: rgba(70, 97, 230, 1);
+  color: #fff;
+}
+
+.midpart p {
+  background-color: rgba(242, 244, 254, 1);
+  height: 35px;
+  line-height: 35px;
+  color: rgba(70, 97, 230, 1);
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.midpart p:nth-child(4) {
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+
+.midpart p:nth-child(6) {
+  width: 130%;
+}
+
+.bottompart {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottompart ul {
+  list-style: none;
+}
+
+.listIts {
+  margin-top: 20px;
+}
+
+.listIt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.circle1 {
+  border-radius: 50%;
+  background-color: rgba(244, 159, 133, 1);
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+}
+
+.circle2 {
+  border-radius: 50%;
+  background-color: rgba(173, 31, 234, 1);
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+}
+
+.circle3 {
+  border-radius: 50%;
+  background-color: rgba(98, 188, 250, 1);
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+}
+
+.roadMapIt {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.roadMapIt p {
+  color: rgba(100, 113, 150, 1);
+}
+
+ul li p {
+  font-size: 13px;
+}
+
+li > p {
+  font-weight: bold;
+}
